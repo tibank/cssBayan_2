@@ -1,1 +1,66 @@
 @import url('normalize.css');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    cursor: default;
+}
+
+h1 {
+    font-size: 25px;
+    margin: 10px 20px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0px 100px 0px 80px;
+    background-color: #f5f5eb;
+    width: 70%;
+}
+
+.text__container {
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+}
+
+.text__container img {
+    display: none;
+}
+
+.text__container .icon__mem {
+    visibility: hidden;
+}
+
+.first__mem img {
+    display: block;
+}
+
+
+.text__container:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.text__container:hover .icon__mem {
+    visibility: visible;
+}
+
+.first__mem {
+    color: black;
+}
+
+
+
+.mem {
+    margin: 10px;
+    padding: 15px 0px 0px 0px;
+    border-top: 1px solid grey;
+}
+
+.header__mem {
+    display: flex;
+    justify-content: space-between;
+}
